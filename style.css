@@ -1,0 +1,57 @@
+body {
+    font-family: 'Noto Nastaliq Urdu', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f2f2f2;
+}
+
+#word, #nextWord {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+/* Style for the dropdown and button */
+#category, #startAgain {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#startAgain {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#startAgain:hover {
+    background-color: #45a049;
+}
+
+/* Style for the timer and typing speed */
+#timer, #typingSpeed {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
